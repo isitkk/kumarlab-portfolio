@@ -20,13 +20,13 @@ const GithubIcon = ({ className = "w-5 h-5" }) => (
 export default function App() {
   const projects = [
     {
-      id: 'aws-vpc',
-      category: 'AWS & Terraform',
-      title: 'Automated AWS Multi-AZ VPC Deployment with Terraform',
-      description: 'Infrastructure as Code (IaC) repository provisioning public/private subnets, Internet Gateways, NAT Gateways, and EC2 Bastion hosts with strictly defined security groups.',
-      tags: ['Terraform', 'AWS VPC', 'EC2'],
-      githubUrl: 'https://github.com/your-github-username/aws-terraform-vpc',
-      docsUrl: 'https://kumarlab.xyz'
+      id: 'kumar-lab-sandbox',
+      category: 'DevOps & DevSecOps',
+      title: 'Kumar Lab — Cloud & Security Sandbox',
+      description: 'A curated registry of high-impact open-source security scanners, IaC modules, and hands-on DevOps field notes built with Astro Content Layer, strict Zod schema validation, and edge routing.',
+      tags: ['Astro', 'Tailwind CSS', 'Cloudflare Pages', 'DevSecOps', 'GitOps'],
+      githubUrl: 'https://github.com/isitkk/kumar-lab',
+      docsUrl: 'https://lab.kumarlab.xyz'
     },
     {
       id: 'k8s-cluster',
