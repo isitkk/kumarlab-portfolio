@@ -26,7 +26,7 @@ export default function App() {
       description: 'A curated registry of high-impact open-source security scanners, IaC modules, and hands-on DevOps field notes built with Astro Content Layer, strict Zod schema validation, and edge routing.',
       tags: ['Astro', 'Tailwind CSS', 'Cloudflare Pages', 'DevSecOps', 'GitOps'],
       githubUrl: 'https://github.com/isitkk/kumar-lab',
-      docsUrl: 'https://lab.kumarlab.xyz'
+      siteUrl: 'https://lab.kumarlab.xyz'
     },
     {
       id: 'k8s-cluster',
