@@ -224,7 +224,7 @@ export default function App() {
                       <GithubIcon className="w-5 h-5" />
                     </a>
                     {project.liveUrl && (
-                      <a href={project.liveUrl} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-sky-400 transition-colors" title="Live Documentation">
+                      <a href={project.liveUrl} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-sky-400 transition-colors" title="Live Url">
                         <ExternalLink className="w-5 h-5" />
                       </a>
                     )}
