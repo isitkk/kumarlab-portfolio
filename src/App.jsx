@@ -36,24 +36,6 @@ export default function App() {
       tags: ['Kubernetes', 'Docker', 'Node.js'],
       githubUrl: 'https://github.com/your-github-username/k8s-microservices-deploy',
       docsUrl: 'https://kumarlab.xyz'
-    },
-    {
-      id: 'cicd-actions',
-      category: 'CI/CD Automation',
-      title: 'Automated CI/CD Pipeline with GitHub Actions',
-      description: 'End-to-end continuous integration and delivery pipeline triggering automated static code checks, Docker image tagging, and seamless container registry deployments.',
-      tags: ['GitHub Actions', 'Bash', 'JavaScript'],
-      githubUrl: 'https://github.com/your-github-username/cicd-pipeline-github-actions',
-      docsUrl: null
-    },
-    {
-      id: 'linux-hardening',
-      category: 'Security & Hardening',
-      title: 'Automated Linux System Hardening & Audit Script',
-      description: 'Custom Shell/Bash automation suite for Ubuntu/Linux server configuration, enforcing SSH security baselines, ufw firewall policies, and vulnerability reporting.',
-      tags: ['Bash', 'Linux', 'Security Audit'],
-      githubUrl: 'https://github.com/your-github-username/linux-server-hardening',
-      docsUrl: null
     }
   ];
 
